@@ -51,13 +51,13 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    flex: 1 1 612.5px;
+    flex: 1 1 0;
 }
 
 .title-image {
     display: flex;
     justify-content: center;
-    flex: 1 0 612.5px;
+    flex: 1 0 0;
     border: 1.75px solid #fff;
     border-radius: 5px;
 }
