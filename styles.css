@@ -34,10 +34,6 @@ a {
 	color: #9E0059;
 }
 
-a:hover {
-	text-decoration: overline;
-}
-
 .title {
 	background-color: #FFD6FF;
 	padding: 48px 20%;
@@ -93,20 +89,16 @@ a:hover {
 }
 
 .signup-button:hover {
-	transition-duration: 0.1s;
-	opacity: 0%;
-}
-
-.signup-button:active {
-	opacity: 0%;
+	color: red;
 }
 
 .photo-bar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	flex-shrink: 0;
 	gap: 32px;
-	padding: 0px 25%;
+	padding: 0px 25% 24px;
 	background-color: #fff;
 }
 
@@ -119,11 +111,9 @@ a:hover {
 .photos {
 	display: flex;
 	gap: 16px;
-	flex: 1 0 290px;
 }
 
 .photo img {
-	display: flex;
 	height: 140px;
 	width: 140px;
 	border: 4px solid #9C89B8;
@@ -141,6 +131,8 @@ a:hover {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+	max-width: 170px;
+	flex: 1 1 auto;
 }
 
 .phrase-block {
@@ -215,15 +207,6 @@ a:hover {
 	margin-left: auto;
 	padding: 4px 12px;
 	width: 100px;
-}
-
-.call-button:hover {
-	transition-duration: 0.1s;
-	opacity: 0%;
-}
-
-.call-button:active {
-	opacity: 0%;
 }
 
 footer {
