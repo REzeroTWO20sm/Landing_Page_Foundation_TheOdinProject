@@ -119,6 +119,7 @@ a:hover {
 
 .photos {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 28px;
     flex: 1 0 507.5px;
